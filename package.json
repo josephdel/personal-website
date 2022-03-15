@@ -4,8 +4,8 @@
   "description": "Personal Website for myself.",
   "main": ".personal-website.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "end": "eleventy"
+    "build": "eleventy",
+    "start": "eleventy --serve"
   },
   "repository": {
     "type": "git",
