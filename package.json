@@ -4,7 +4,8 @@
   "description": "Personal Website for myself.",
   "main": ".personal-website.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "end": "eleventy"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/josephdel/personal-website/issues"
   },
-  "homepage": "https://github.com/josephdel/personal-website#readme"
+  "homepage": "https://github.com/josephdel/personal-website#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
 }
